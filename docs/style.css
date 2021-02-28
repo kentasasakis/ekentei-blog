@@ -66,7 +66,7 @@ body {
 }
 
 div#wrapper {
-	width: auto;
+	width: 1200px;
 	height: auto;
 	margin: 0 auto ;
 
@@ -86,13 +86,14 @@ float: left;
 }
 
 div#right{
-width: auto;
-height: 90%;
-background-color:white;
+width: 1000;
+height: auto;
+#background-color:#FFFFCC;
 float: left;
 line-height: 1.25;
 font-size: 20px;
-margin: 2% 2% ;
+#margin: 2% 2% ;
+box-sizing: border-box;
 }
 
 div#clearfix{
@@ -103,7 +104,10 @@ div#clearfix{
 div.textarea{
 	overflow-wrap:  break-word;
 	width: auto;
-	height: 90%;
+	height: auto;
+	margin: 2% 2% ;
+	box-sizing: border-box;
+	#background-color:#D6FF58;
 
 }
 
