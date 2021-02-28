@@ -59,7 +59,8 @@ body {
 	color:#555;
 	font-size: 14px;
 	line-height: 1;
-	font-family: "メイリオ", Meiryo;
+	#font-family: "メイリオ", Meiryo;
+	font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
 	background-color: #fff;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
